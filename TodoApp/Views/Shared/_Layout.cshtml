@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TodoApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="~/css/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="~/css/styles/Style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <i style="font-size: 24px; background: linear-gradient(91.9deg, #000000 35.57%, #F5FA80 107.98%); color: #F5FA80; ">SWAPDEX     </i> &emsp;
+
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">    Swap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                          
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Cryptooly" asp-action="index">CRYPTOOLY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-dark"  asp-controller="Cryptooly" asp-action="swadex">SWADEX</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex" style="">
+                    <button type="button" style="background-color: #D7E4E3; color: gray; height: 30px; outline: none; border-radius: 30px/80px;border:none; "><p>0 Swap</p></button>&emsp;
+
+
+
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy" style="background-color: #000000; height: 30px; border-radius: 30px/80px; position: static; "><p style="color: #F5FA80; line-height:inherit">Connect to Wallet</p></a>
+
+                    &emsp; <i class="bi bi-three-dots" style="font-size: 30px; color: black; "></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="background-color: #FFFFFF ">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 20222 - TodoApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
