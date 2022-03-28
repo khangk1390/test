@@ -5,3 +5,13 @@
     border-radius: 20px/70px;
     height:40px;
 }
+.nck1 {
+    flex:none;
+    order:0;
+    flex-grow:0;
+    margin:16px 0px;
+}
+.nck2 {
+    position: absolute;
+    top: calc(21% - 40px/2);
+}
