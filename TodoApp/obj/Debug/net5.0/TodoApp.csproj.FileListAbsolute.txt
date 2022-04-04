@@ -40,3 +40,46 @@ C:\Users\Chung Toan IOT\source\repos\TodoApp\TodoApp\obj\Debug\net5.0\TodoApp.cs
 C:\Users\Chung Toan IOT\source\repos\TodoApp\TodoApp\obj\Debug\net5.0\TodoApp.csproj.AssemblyReference.cache
 C:\Users\Chung Toan IOT\source\repos\TodoApp\TodoApp\obj\Debug\net5.0\Razor\Views\Cryptooly\Index.cshtml.g.cs
 C:\Users\Chung Toan IOT\source\repos\TodoApp\TodoApp\obj\Debug\net5.0\Razor\Views\Cryptooly\swadex.cshtml.g.cs
+D:\TT\TodoApp\bin\Debug\net5.0\appsettings.Development.json
+D:\TT\TodoApp\bin\Debug\net5.0\appsettings.json
+D:\TT\TodoApp\bin\Debug\net5.0\TodoApp.exe
+D:\TT\TodoApp\bin\Debug\net5.0\TodoApp.deps.json
+D:\TT\TodoApp\bin\Debug\net5.0\TodoApp.runtimeconfig.json
+D:\TT\TodoApp\bin\Debug\net5.0\TodoApp.runtimeconfig.dev.json
+D:\TT\TodoApp\bin\Debug\net5.0\TodoApp.dll
+D:\TT\TodoApp\bin\Debug\net5.0\ref\TodoApp.dll
+D:\TT\TodoApp\bin\Debug\net5.0\TodoApp.pdb
+D:\TT\TodoApp\bin\Debug\net5.0\TodoApp.Views.dll
+D:\TT\TodoApp\bin\Debug\net5.0\TodoApp.Views.pdb
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.csproj.AssemblyReference.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.AssemblyInfoInputs.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.AssemblyInfo.cs
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CoreCompileInputs.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.MvcApplicationPartsAssemblyInfo.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.RazorAssemblyInfo.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.RazorAssemblyInfo.cs
+D:\TT\TodoApp\obj\Debug\net5.0\staticwebassets\TodoApp.StaticWebAssets.Manifest.cache
+D:\TT\TodoApp\obj\Debug\net5.0\staticwebassets\TodoApp.StaticWebAssets.xml
+D:\TT\TodoApp\obj\Debug\net5.0\scopedcss\bundle\TodoApp.styles.css
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.TagHelpers.input.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.TagHelpers.output.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.RazorCoreGenerate.cache
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Cryptooly\Index.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Cryptooly\swadex.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.RazorTargetAssemblyInfo.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.RazorTargetAssemblyInfo.cs
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.Views.pdb
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.dll
+D:\TT\TodoApp\obj\Debug\net5.0\ref\TodoApp.dll
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.pdb
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.genruntimeconfig.cache
+D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CopyComplete
+D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Setting.cshtml.g.cs
