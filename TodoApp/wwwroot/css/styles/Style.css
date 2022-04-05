@@ -94,3 +94,13 @@ input:checked + .slider:before {
     margin-right: 10px;
     border-radius: 5px
 }
+.btnImport {
+    border-radius: 8px;
+    position: static;
+    margin: 0px 23px;
+    color: #F5FA80;
+    border: none;
+    width: 70%;
+    background-color: #000000;
+    height: 29px;
+}
