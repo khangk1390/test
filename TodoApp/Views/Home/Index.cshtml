@@ -36,7 +36,7 @@
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myToken" style="background-color: #f2f2f2">
                         <img src="~/css/img/eth.png" style="width:30px; height:30px">
                     </button>
-                 <!--00000000-->  
+                    <!--00000000-->
                     <input data-bn-type="input" value="ETH" style="text-align:left; width:70px;border:none" />
 
                 </div><br />
@@ -83,7 +83,7 @@
     <br /><br />
 
 
- <!--Modal Setting-->
+    <!--Modal Setting-->
     <div class="modal" id="mySetting">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -141,10 +141,21 @@
                             </a>
                         </div>
                         &nbsp;
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
+                        @*<label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>*@
+
+                        <button id="toggle-optimized-router-button" class="Toggle_StyledToggle-sc-115fm0w-1 btnspan1">
+
+                            <span class="Toggle_StyledToggle-sc-115fm0w-0 spanbutton1">ON</span>
+                            <span class="Toggle_StyledToggle-sc-115fm0w-0 spanbutton2">OFF</span>
+
+
+                        </button>
+
+
+
                     </div>
 
                     <!--Disable multihops-->
@@ -302,7 +313,7 @@
                 </div>
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn" data-bs-dismiss="modal"><i class='fas fa-pen'>&nbsp;Manage</i></button>
+                    <button type="button" class="btn" data-bs-target="#mymanage" data-bs-toggle="modal"><i class='fas fa-pen'>&nbsp;Manage</i></button>
                 </div>
 
             </div>
@@ -311,63 +322,211 @@
 </div>
 
 <!--Import Token-->
-    <div class="modal fade" id="ImportToken" aria-hidden="true">
-        <div class="modal-dialog ">
-            <div class="modal-content" style="">
-                <div class="modal-header d-flex" style="text-align: left; background-color: white">
+<div class="modal fade" id="ImportToken" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content" style="">
+            <div class="modal-header d-flex" style="text-align: left; background-color: white">
 
-                    <button data-bs-target="#myToken" data-bs-toggle="modal" style="border:none"><i class='fas fa-arrow-left'> &emsp; Import token</i></button>
-                    <div style="flex-grow:1"></div>
-                    <button  style="border:none"><i class="bi bi-x-lg"></i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="mt-3" style="background-color: #f2f2f2; border-radius: 8px; align-items: center; position: static; height: auto; width: 100%">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex flex-row align-items-center">
-                                <span class="star">  <img src="~/css/img/amplg.png" style="width:30px; height:30px"> </span>
-                                <div class="d-flex flex-column">
-                                    <span>AMPL (Amplegold) </span>
-                                    <div class="d-flex flex-row align-items-center time-text">
-                                        <small style="color: #5cd6d6;font-size:8px">sd1a32sd132q1w2e3q15we45sfsdf54s132a</small>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center time-text">
-                                        <small>via Kleros Token &emsp;<img src="~/css/img/long1.jpg" style="width:20px; height:20px"></small>
-                                    </div>
+                <button data-bs-target="#myToken" data-bs-toggle="modal" style="border:none"><i class='fas fa-arrow-left'> &emsp; Import token</i></button>
+                <div style="flex-grow:1"></div>
+                <button style="border:none"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="mt-3" style="background-color: #f2f2f2; border-radius: 8px; align-items: center; position: static; height: auto; width: 100%">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex flex-row align-items-center">
+                            <span class="star">  <img src="~/css/img/amplg.png" style="width:30px; height:30px"> </span>
+                            <div class="d-flex flex-column">
+                                <span>AMPL (Amplegold) </span>
+                                <div class="d-flex flex-row align-items-center time-text">
+                                    <small style="color: #5cd6d6;font-size:8px">sd1a32sd132q1w2e3q15we45sfsdf54s132a</small>
+                                </div>
+                                <div class="d-flex flex-row align-items-center time-text">
+                                    <small>via Kleros Token &emsp;<img src="~/css/img/long1.jpg" style="width:20px; height:20px"></small>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
 
-                    <div class="mt-3 container" style="background-color: #f2f2f2;width:100%; border-radius: 8px; align-items: center; position: static; height: auto;">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex flex-column align-items-center ">
-                                
-                                <div class="d-flex flex-column warning  " style="margin-left:35px">
-                                    <span style="color:orange; font-size:60px; margin:0 auto"><i class="bi bi-exclamation-triangle"></i> </span>
-                                    <div class="d-flex flex-row align-items-center time-text">
-                                        <small style="color:orange; font-size:20px">Trade at your own risk!</small>
-                                    </div>
-                                </div>
-                                <br />
-                                <div cl>
-                                    <span>Anyone can create a token , including creating fake versions of existing tokens that claim to represent projects . if you you purchases this token , you may not be able to sell it back </span>
-                                </div>
-                                <div>
-                                    <span class="spancheckbox" onclick="this.innerHTML = (this.innerHTML ? '' : '✓')"></span>
-                                    <label > I Understand</label>
-                                </div>
-                               
+                <div class="mt-3 container" style="background-color: #f2f2f2;width:100%; border-radius: 8px; align-items: center; position: static; height: auto;">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex flex-column align-items-center ">
 
+                            <div class="d-flex flex-column warning  " style="margin-left:35px">
+                                <span style="color:orange; font-size:60px; margin:0 auto"><i class="bi bi-exclamation-triangle"></i> </span>
+                                <div class="d-flex flex-row align-items-center time-text">
+                                    <small style="color:orange; font-size:20px">Trade at your own risk!</small>
+                                </div>
                             </div>
+                            <br />
+                            <div cl>
+                                <span>Anyone can create a token , including creating fake versions of existing tokens that claim to represent projects . if you you purchases this token , you may not be able to sell it back </span>
+                            </div>
+                            <div>
+                                <span class="spancheckbox" onclick="this.innerHTML = (this.innerHTML ? '' : '✓')"></span>
+                                <label> I Understand</label>
+                            </div>
+
+
                         </div>
                     </div>
+                </div>
 
-                </div>
-                    
-                <div class="modal-footer">
-                    <button style="border-radius: 8px; position: static; margin: 0px 30px; color: #F5FA80; border: none; width: 90%; background-color: #000000; height: 45px; font-size:20px ">Import</button>
-                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button style="border-radius: 8px; position: static; margin: 0px 30px; color: #F5FA80; border: none; width: 90%; background-color: #000000; height: 45px; font-size:20px ">Import</button>
             </div>
         </div>
     </div>
+</div>
+
+
+<!--manager-->
+<div class="modal container" id="mymanage">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #e6e6e6">
+            <div class="modal-header d-flex" style="text-align: left; background-color: white">
+
+                <button data-bs-target="#myToken" data-bs-toggle="modal" style="border:none"><i class='fas fa-arrow-left'> &emsp; Manage</i></button>
+                <div style="flex-grow:1"></div>
+                <button style="border:none"><i class="bi bi-x-lg"></i></button>
+            </div>
+
+
+            <div class="d-flex flex-row align-items-center" style="width:100%">
+                &emsp; <button style="background-color: black; color: #FFFF00 ; width:46%;border-radius:8px; height:45px">Lists</button>
+                <button style="background-color: white; width: 46%; border-radius: 8px; height: 45px ">TOkens</button>
+            </div><br />
+
+                  <div class="" style="width:100%">
+
+                      <form>
+                          &emsp; <input type="text" name="search" placeholder="Search..">
+                      </form>
+
+                  </div>
+            <div class="scrollbar1" id="style-1">
+                <div class="force-overflow">
+                    <!--Gennemi-->
+                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                &emsp;<span class="star">  <img src="~/css/img/genemi.png" style="width:30px; height:30px"> </span>
+                                <div class="d-flex flex-column">
+                                    <span>Genemi Token List </span>
+                                    <div class="d-flex flex-row align-items-center time-text">
+                                        <small>21 Token </small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-flex flex-column">
+                                <label class="switch1">
+                                    <input type="checkbox">
+                                    <span class="slider1 round"></span>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Aave Token List-->
+                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                &emsp;<span class="star">  <img src="~/css/img/Atoken.jpg" style="width:30px; height:30px"> </span>
+                                <div class="d-flex flex-column">
+                                    <span>Aave Token List </span>
+                                    <div class="d-flex flex-row align-items-center time-text">
+                                        <small>81 Token <i class="bi bi-gear"></i></small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-flex flex-column">
+                                <label class="switch1">
+                                    <input type="checkbox">
+                                    <span class="slider1 round"></span>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--CMC DeFi-->
+                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                &emsp;<span class="star">  <img src="~/css/img/cmc1.png" style="width:30px; height:30px"> </span>
+                                <div class="d-flex flex-column">
+                                    <span>CMC DeFi </span>
+                                    <div class="d-flex flex-row align-items-center time-text">
+                                        <small>141 Token <i class="bi bi-gear"></i></small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-flex flex-column">
+                                <label class="switch1">
+                                    <input type="checkbox">
+                                    <span class="slider1 round"></span>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--CMC StableCoin-->
+                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                &emsp;<span class="star">  <img src="~/css/img/cmc1.png" style="width:30px; height:30px"> </span>
+                                <div class="d-flex flex-column">
+                                    <span>CMC StableCoin </span>
+                                    <div class="d-flex flex-row align-items-center time-text">
+                                        <small>18 Token <i class="bi bi-gear"></i></small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-flex flex-column">
+                                <label class="switch1">
+                                    <input type="checkbox">
+                                    <span class="slider1 round"></span>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Coin Gecko--><div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                &emsp;<span class="star">  <img src="~/css/img/coingecko.png" style="width:30px; height:30px"> </span>
+                                <div class="d-flex flex-column">
+                                    <span>Coin Gecko </span>
+                                    <div class="d-flex flex-row align-items-center time-text">
+                                        <small>1920 Token <i class="bi bi-gear"></i></small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-flex flex-column">
+                                <label class="switch1">
+                                    <input type="checkbox">
+                                    <span class="slider1 round"></span>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>

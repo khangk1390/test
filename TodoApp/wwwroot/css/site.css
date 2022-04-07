@@ -88,4 +88,70 @@ body {
     cursor: pointer;
     background-color: black;
 }
+.btnspan1 {
+    border-radius: 12px;
+    border: none;
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: fit-content;
+    cursor: pointer;
+    outline: none;
+    padding: 2px;
+}
+.spanbutton1 {
+    padding: 0.25rem 0.6rem;
+    border-radius: 9px;
+    background: rgb(232, 0, 111);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+}
+.spanbutton2 {
+    padding: 0.25rem 0.6rem;
+    border-radius: 9px;
+    background: none;
+    color: rgb(86, 90, 105);
+    font-size: 14px;
+    font-weight: 400;
+}
 
+
+.scrollbar1 {
+    background-color: #F5F5F5;
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 90%;
+    overflow-y: scroll;
+    border-radius: 8px;
+}
+
+.force-overflow {
+    min-height: 450px;
+    border-radius: 8px;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    background-color: GRAY;
+    width: 6px;
+    border-radius: 8px;
+}
+input[type=text] {
+    width: 92%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
