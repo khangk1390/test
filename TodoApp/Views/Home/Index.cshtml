@@ -313,44 +313,58 @@
 <!--Import Token-->
     <div class="modal fade" id="ImportToken" aria-hidden="true">
         <div class="modal-dialog ">
-            <div class="modal-content" style="background-color: #e6e6e6>
-                <div class="modal-header">
-                    <button data-bs-target="#myToken" data-bs-toggle="modal"><i class='fas fa-arrow-left'></i></button>
+            <div class="modal-content" style="">
+                <div class="modal-header d-flex" style="text-align: left; background-color: white">
+
+                    <button data-bs-target="#myToken" data-bs-toggle="modal" style="border:none"><i class='fas fa-arrow-left'> &emsp; Import token</i></button>
+                    <div style="flex-grow:1"></div>
+                    <button  style="border:none"><i class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
-                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                    <div class="mt-3" style="background-color: #f2f2f2; border-radius: 8px; align-items: center; position: static; height: auto; width: 100%">
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex flex-row align-items-center">
                                 <span class="star">  <img src="~/css/img/amplg.png" style="width:30px; height:30px"> </span>
                                 <div class="d-flex flex-column">
                                     <span>AMPL (Amplegold) </span>
                                     <div class="d-flex flex-row align-items-center time-text">
-                                        <small style="color: #5cd6d6;">via Kleros Token</small>
+                                        <small style="color: #5cd6d6;font-size:8px">sd1a32sd132q1w2e3q15we45sfsdf54s132a</small>
                                     </div>
                                     <div class="d-flex flex-row align-items-center time-text">
-                                        <small>via Kleros Token</small>
+                                        <small>via Kleros Token &emsp;<img src="~/css/img/long1.jpg" style="width:20px; height:20px"></small>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex flex-row align-items-center">
 
-                                <div class="d-flex flex-column" style="margin-left:35px">
+                    <div class="mt-3 container" style="background-color: #f2f2f2;width:100%; border-radius: 8px; align-items: center; position: static; height: auto;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column align-items-center ">
+                                
+                                <div class="d-flex flex-column warning  " style="margin-left:35px">
                                     <span style="color:orange; font-size:60px; margin:0 auto"><i class="bi bi-exclamation-triangle"></i> </span>
                                     <div class="d-flex flex-row align-items-center time-text">
                                         <small style="color:orange; font-size:20px">Trade at your own risk!</small>
                                     </div>
                                 </div>
-                                
+                                <br />
+                                <div cl>
+                                    <span>Anyone can create a token , including creating fake versions of existing tokens that claim to represent projects . if you you purchases this token , you may not be able to sell it back </span>
+                                </div>
+                                <div>
+                                    <span class="spancheckbox" onclick="this.innerHTML = (this.innerHTML ? '' : '✓')"></span>
+                                    <label > I Understand</label>
+                                </div>
+                               
+
                             </div>
                         </div>
                     </div>
 
                 </div>
+                    
                 <div class="modal-footer">
                     <button style="border-radius: 8px; position: static; margin: 0px 30px; color: #F5FA80; border: none; width: 90%; background-color: #000000; height: 45px; font-size:20px ">Import</button>
                 </div>

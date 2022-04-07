@@ -71,5 +71,21 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-
+.warning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:500px;
+}
+.spancheckbox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font: 15px/15px 'Sans Serif';
+    color: yellow;
+    border: solid 1px black;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: black;
+}
 

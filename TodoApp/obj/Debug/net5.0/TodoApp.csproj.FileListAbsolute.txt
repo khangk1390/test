@@ -83,3 +83,46 @@ D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.pdb
 D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.genruntimeconfig.cache
 D:\TT\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CopyComplete
 D:\TT\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Setting.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\appsettings.json
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\TodoApp.exe
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\TodoApp.deps.json
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\TodoApp.runtimeconfig.json
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\TodoApp.runtimeconfig.dev.json
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\TodoApp.dll
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\ref\TodoApp.dll
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\TodoApp.pdb
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\TodoApp.Views.dll
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\bin\Debug\net5.0\TodoApp.Views.pdb
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.csproj.AssemblyReference.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.AssemblyInfoInputs.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.AssemblyInfo.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CoreCompileInputs.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.RazorAssemblyInfo.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.RazorAssemblyInfo.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\staticwebassets\TodoApp.StaticWebAssets.Manifest.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\staticwebassets\TodoApp.StaticWebAssets.xml
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\scopedcss\bundle\TodoApp.styles.css
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.TagHelpers.input.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.TagHelpers.output.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.RazorCoreGenerate.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\Cryptooly\Index.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\Cryptooly\swadex.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Setting.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.RazorTargetAssemblyInfo.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.RazorTargetAssemblyInfo.cs
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.Views.pdb
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.dll
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\ref\TodoApp.dll
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.pdb
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.genruntimeconfig.cache
+C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CopyComplete
