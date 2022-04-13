@@ -75,8 +75,9 @@
             <span>1%</span>
 
         </div>
+        <!--Swap Exact ETH for token-->
         <div>
-            <button onclick="alert('Hello ')" style="color:darkgray; width: 650px; height: 70px; border: none">Enter A Mount</button>
+            <button data-bs-toggle="modal" data-bs-target="#SwapExact" style="color:darkgray; width: 650px; height: 70px; border: none">Enter A Mount</button>
         </div><br />
 
     </div>
@@ -388,144 +389,180 @@
 <div class="modal container" id="mymanage">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #e6e6e6">
-            <div class="modal-header d-flex" style="text-align: left; background-color: white">
+            <div class="modal-header d-flex" style="text-align: left;">
 
                 <button data-bs-target="#myToken" data-bs-toggle="modal" style="border:none"><i class='fas fa-arrow-left'> &emsp; Manage</i></button>
                 <div style="flex-grow:1"></div>
                 <button style="border:none"><i class="bi bi-x-lg"></i></button>
             </div>
 
-
-            <div class="d-flex flex-row align-items-center" style="width:100%">
-                &emsp; <button style="background-color: black; color: #FFFF00 ; width:46%;border-radius:8px; height:45px">Lists</button>
-                <button style="background-color: white; width: 46%; border-radius: 8px; height: 45px ">TOkens</button>
+            <div class="d-flex flex-row align-items-center tabManage" style="width:100%; margin-right:10px">
+                &emsp;
+                <button class="tablinks active" style="width:50%;border-radius:8px; height:50px; border:none; font-weight:bold">Lists</button>
+                <button class="tablinks" style="width: 50%; border-radius: 8px; height: 50px; border: none; font-weight: bold">Tokens</button>
             </div><br />
 
-                  <div class="" style="width:100%">
+            <div class="tabcontent" id="Lists">
+                <div style="width:100%">
+                    <form>
+                        &emsp; <input type="text" name="search" placeholder="http:// or ipfs:// or ENS name">
+                    </form>
+                </div>
 
-                      <form>
-                          &emsp; <input type="text" name="search" placeholder="Search..">
-                      </form>
+                <!--Lists-->
+                <div class="scrollbar1" id="style-1">
+                    <div class="force-overflow">
+                        <!--Gennemi-->
+                        <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex flex-row align-items-center">
+                                    &emsp;<span class="star">  <img src="~/css/img/genemi.png" style="width:30px; height:30px"> </span>
+                                    <div class="d-flex flex-column">
+                                        <span>Genemi Token List </span>
+                                        <div class="d-flex flex-row align-items-center time-text">
+                                            <small>21 Token </small>
+                                        </div>
+                                    </div>
 
-                  </div>
-            <div class="scrollbar1" id="style-1">
-                <div class="force-overflow">
-                    <!--Gennemi-->
-                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex flex-row align-items-center">
-                                &emsp;<span class="star">  <img src="~/css/img/genemi.png" style="width:30px; height:30px"> </span>
+                                </div>
                                 <div class="d-flex flex-column">
-                                    <span>Genemi Token List </span>
-                                    <div class="d-flex flex-row align-items-center time-text">
-                                        <small>21 Token </small>
+                                    <label class="switch1">
+                                        <input type="checkbox" checked>
+                                        <span class="slider1 round"></span>
+
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Aave Token List-->
+                        <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex flex-row align-items-center">
+                                    &emsp;<span class="star">  <img src="~/css/img/Atoken.jpg" style="width:30px; height:30px"> </span>
+                                    <div class="d-flex flex-column">
+                                        <span>Aave Token List </span>
+                                        <div class="d-flex flex-row align-items-center time-text">
+                                            <small>81 Token <i class="bi bi-gear"></i></small>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="switch1">
+                                        <input type="checkbox" checked>
+                                        <span class="slider1 round"></span>
+
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--CMC DeFi-->
+                        <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex flex-row align-items-center">
+                                    &emsp;<span class="star">  <img src="~/css/img/cmc1.png" style="width:30px; height:30px"> </span>
+                                    <div class="d-flex flex-column">
+                                        <span>CMC DeFi </span>
+                                        <div class="d-flex flex-row align-items-center time-text">
+                                            <small>141 Token <i class="bi bi-gear"></i></small>
+                                        </div>
                                     </div>
                                 </div>
 
-                            </div>
-                            <div class="d-flex flex-column">
-                                <label class="switch1">
-                                    <input type="checkbox">
-                                    <span class="slider1 round"></span>
+                                <div class="d-flex flex-column">
+                                    <label class="switch1">
+                                        <input type="checkbox" checked>
+                                        <span class="slider1 round"></span>
 
-                                </label>
+                                    </label>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Aave Token List-->
-                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex flex-row align-items-center">
-                                &emsp;<span class="star">  <img src="~/css/img/Atoken.jpg" style="width:30px; height:30px"> </span>
-                                <div class="d-flex flex-column">
-                                    <span>Aave Token List </span>
-                                    <div class="d-flex flex-row align-items-center time-text">
-                                        <small>81 Token <i class="bi bi-gear"></i></small>
+
+                        <!--CMC StableCoin-->
+                        <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex flex-row align-items-center">
+                                    &emsp;<span class="star">  <img src="~/css/img/cmc1.png" style="width:30px; height:30px"> </span>
+                                    <div class="d-flex flex-column">
+                                        <span>CMC StableCoin </span>
+                                        <div class="d-flex flex-row align-items-center time-text">
+                                            <small>18 Token <i class="bi bi-gear"></i></small>
+                                        </div>
                                     </div>
                                 </div>
 
-                            </div>
-                            <div class="d-flex flex-column">
-                                <label class="switch1">
-                                    <input type="checkbox">
-                                    <span class="slider1 round"></span>
-
-                                </label>
+                                <div class="d-flex flex-column">
+                                    <label class="switch1">
+                                        <input type="checkbox" checked>
+                                        <span class="slider1 round"></span>
+                                    </label>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--CMC DeFi-->
-                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex flex-row align-items-center">
-                                &emsp;<span class="star">  <img src="~/css/img/cmc1.png" style="width:30px; height:30px"> </span>
-                                <div class="d-flex flex-column">
-                                    <span>CMC DeFi </span>
-                                    <div class="d-flex flex-row align-items-center time-text">
-                                        <small>141 Token <i class="bi bi-gear"></i></small>
+
+                        <!--Coin Gecko-->
+                        <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex flex-row align-items-center">
+                                    &emsp;<span class="star">  <img src="~/css/img/coingecko.png" style="width:30px; height:30px"> </span>
+                                    <div class="d-flex flex-column">
+                                        <span>Coin Gecko </span>
+                                        <div class="d-flex flex-row align-items-center time-text">
+                                            <small>1920 Token <i class="bi bi-gear"></i></small>
+                                        </div>
                                     </div>
                                 </div>
 
-                            </div>
-                            <div class="d-flex flex-column">
-                                <label class="switch1">
-                                    <input type="checkbox">
-                                    <span class="slider1 round"></span>
-
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--CMC StableCoin-->
-                    <div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex flex-row align-items-center">
-                                &emsp;<span class="star">  <img src="~/css/img/cmc1.png" style="width:30px; height:30px"> </span>
                                 <div class="d-flex flex-column">
-                                    <span>CMC StableCoin </span>
-                                    <div class="d-flex flex-row align-items-center time-text">
-                                        <small>18 Token <i class="bi bi-gear"></i></small>
-                                    </div>
+                                    <label class="switch1">
+                                        <input type="checkbox" checked>
+                                        <span class="slider1 round"></span>
+                                    </label>
                                 </div>
-
-                            </div>
-                            <div class="d-flex flex-column">
-                                <label class="switch1">
-                                    <input type="checkbox">
-                                    <span class="slider1 round"></span>
-
-                                </label>
                             </div>
                         </div>
                     </div>
-                    <!--Coin Gecko--><div class="mt-3" style="background-color: #FFFFFF; border-radius: 8px; align-items: center; position: static; height: auto">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex flex-row align-items-center">
-                                &emsp;<span class="star">  <img src="~/css/img/coingecko.png" style="width:30px; height:30px"> </span>
-                                <div class="d-flex flex-column">
-                                    <span>Coin Gecko </span>
-                                    <div class="d-flex flex-row align-items-center time-text">
-                                        <small>1920 Token <i class="bi bi-gear"></i></small>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="d-flex flex-column">
-                                <label class="switch1">
-                                    <input type="checkbox">
-                                    <span class="slider1 round"></span>
-
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-
                 </div>
             </div>
 
+            <!--Tokens-->
+            <div class="tabcontent" id="Tokens" style="height:450px;">
+                <div style="width:100%">
+                    <form>
+                        &emsp; <input type="text" name="search" placeholder="0x0000">
+                    </form>
+                </div>
+                <div>
+                    <div>
+                        <p style="margin-left:22px; margin-top:30px; font-weight:bold;">0 custom token</p>
+                    </div>
+                </div>
+            </div>
 
+            <!--Chuyen tab List vs tab Token trong Manage-->
+            <script type="text/javascript">
+                var buttons = document.getElementsByClassName('tablinks');
+                var contents = document.getElementsByClassName('tabcontent');
+                function showContent(id) {
+                    for (var i = 0; i < contents.length; i++) {
+                        contents[i].style.display = 'none';
+                    }
+                    var content = document.getElementById(id);
+                    content.style.display = 'block';
+                }
+                for (var i = 0; i < buttons.length; i++) {
+                    buttons[i].addEventListener("click", function () {
+                        var id = this.textContent;
+                        for (var i = 0; i < buttons.length; i++) {
+                            buttons[i].classList.remove("active");
+                        }
+                        this.className += " active";
+                        showContent(id);
+                    });
+                }
+                showContent('Lists');
+            </script>
 
         </div>
     </div>

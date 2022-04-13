@@ -3,8 +3,10 @@
     "",
     "\\TodoApp",
     "\\TodoApp\\Views",
-    "\\TodoApp\\Views\\Cryptooly",
-    "\\TodoApp\\Views\\Home"
+    "\\TodoApp\\Views\\Home",
+    "\\TodoApp\\wwwroot",
+    "\\TodoApp\\wwwroot\\css",
+    "\\TodoApp\\wwwroot\\css\\styles"
   ],
   "SelectedNode": "\\TodoApp\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false

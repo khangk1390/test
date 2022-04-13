@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5yPQaBfBax/aqiNKtQll/bDPLWRqWsxcM0KX+xt6dYPycGWrXL930jUDB+XX4SxJCn9LIaIL6JLB9erS5O8HQA==",
+  "dgSpecHash": "uj4hav69NMyUKqL2LgcKpIZ8570z8VK++G5BkJkJrx6sm6kJ45zaI0fLuRjXv32EEvzsEWHCH320nF2dzRO4AQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Chung Toan IOT\\Desktop\\test\\TodoApp\\TodoApp.csproj",
+  "projectFilePath": "D:\\ThucTap02\\TodoApp\\TodoApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

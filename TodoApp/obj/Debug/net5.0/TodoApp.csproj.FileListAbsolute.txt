@@ -126,3 +126,46 @@ C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\ref\TodoApp.dll
 C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.pdb
 C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.genruntimeconfig.cache
 C:\Users\Chung Toan IOT\Desktop\test\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CopyComplete
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\appsettings.Development.json
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\appsettings.json
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\TodoApp.exe
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\TodoApp.deps.json
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\TodoApp.runtimeconfig.json
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\TodoApp.runtimeconfig.dev.json
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\TodoApp.dll
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\ref\TodoApp.dll
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\TodoApp.pdb
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\TodoApp.Views.dll
+D:\ThucTap02\TodoApp\bin\Debug\net5.0\TodoApp.Views.pdb
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.csproj.AssemblyReference.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.AssemblyInfoInputs.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.AssemblyInfo.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CoreCompileInputs.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.MvcApplicationPartsAssemblyInfo.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.RazorAssemblyInfo.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.RazorAssemblyInfo.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\staticwebassets\TodoApp.StaticWebAssets.Manifest.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\staticwebassets\TodoApp.StaticWebAssets.xml
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\scopedcss\bundle\TodoApp.styles.css
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.TagHelpers.input.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.TagHelpers.output.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.RazorCoreGenerate.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\Cryptooly\Index.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\Cryptooly\swadex.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\Home\Setting.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.RazorTargetAssemblyInfo.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.RazorTargetAssemblyInfo.cs
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.Views.pdb
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.dll
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\ref\TodoApp.dll
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.pdb
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.genruntimeconfig.cache
+D:\ThucTap02\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CopyComplete

@@ -160,3 +160,43 @@ input:checked + .slider1:before {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
+/*Chuyen tab trong Manage*/
+
+/* định dạng thẻ div chưa các button tab */
+div.tabManage {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+    /* định dạng các button tab */
+    div.tabManage button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+        /* đổi màu khi một button tab được hover */
+        div.tabManage button:hover {
+            background-color: #ccc;
+        }
+
+        /* đổi màu nền cho tab đang được hiển thị nội dung */
+        div.tabManage button.active {
+            background-color: #000000;
+            color:#FFFF00;
+        }
+
+/* định dạng nội dung hiển thị */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+/*000000000000000000000000000000000000*/
